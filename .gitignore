@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Build outputs
+build/
+dist/
+*.spec.local
+
+# Downloaded runtime assets (not suitable for normal Git commits)
+assets/ffmpeg/ffmpeg.exe
+assets/piano_transcription_inference_data/*.pth
+
+# Generated transcription and diagnostic files
+*.mid
+*verification*.json
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
